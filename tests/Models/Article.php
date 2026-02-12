@@ -1,6 +1,6 @@
 <?php
 
-namespace OneSeven9955\Auditing\Drivers\Tests\Models;
+namespace VirLatinus\Auditing\Drivers\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use OwenIt\Auditing\Contracts\Auditable;

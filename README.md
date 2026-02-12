@@ -45,7 +45,7 @@ You can integrate the driver into any Auditable model by following the code snip
 <?php
 namespace App\Models;
 
-use OneSeven9955\Auditing\Drivers\FilesystemDriver;
+use VirLatinus\Auditing\Drivers\FilesystemDriver;
 use Illuminate\Database\Eloquent\Model;
 use OwenIt\Auditing\Contracts\Auditable;
 
@@ -56,7 +56,7 @@ class Article extends Model implements Auditable
     /**
      * Filesystem Audit Driver.
      *
-     * @var \OneSeven9955\Auditing\Drivers\FilesystemDriver
+     * @var \VirLatinus\Auditing\Drivers\FilesystemDriver
      */
     protected $auditDriver = FilesystemDriver::class;
 
@@ -71,7 +71,7 @@ acquiring exclusive file locks and opening files repeatedly.
 You can implement this optimization by following these steps:
 
 ```php
-use OneSeven9955\Auditing\Drivers\FilesystemDriver;
+use VirLatinus\Auditing\Drivers\FilesystemDriver;
 
 app(FilesystemDriver::class)->bufferStart();
     // ...

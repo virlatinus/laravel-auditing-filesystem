@@ -1,9 +1,9 @@
 <?php
 
-namespace OneSeven9955\Auditing\Drivers\Tests\Local;
+namespace VirLatinus\Auditing\Drivers\Tests\Local;
 
-use OneSeven9955\Auditing\Drivers\FilesystemDriver;
-use OneSeven9955\Auditing\Drivers\Tests\Models\Article;
+use VirLatinus\Auditing\Drivers\FilesystemDriver;
+use VirLatinus\Auditing\Drivers\Tests\Models\Article;
 use Carbon\Carbon;
 use Orchestra\Testbench\TestCase;
 

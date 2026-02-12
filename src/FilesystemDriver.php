@@ -1,6 +1,6 @@
 <?php
 
-namespace OneSeven9955\Auditing\Drivers;
+namespace VirLatinus\Auditing\Drivers;
 
 use DateTime;
 use Illuminate\Filesystem\FilesystemAdapter;
