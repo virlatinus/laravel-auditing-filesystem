@@ -8,11 +8,11 @@ performance by buffering the log records and then flushing them once you have co
 
 ### Installation
 
-To utilize this driver, you need to have `owen-it/laravel-auditing: ^13.0` installed. Once this requirement is met, you
+To utilize this driver, you need to have `owen-it/laravel-auditing: ^14.0` installed. Once this requirement is met, you
 can proceed to install the driver as follows:
 
 ```
-composer require OneSeven9955/laravel-auditing-fs
+composer require virlatinus/laravel-auditing-filesystem
 ```
 
 ### Setup
@@ -31,7 +31,7 @@ If you wish to modify the default behavior of the driver, you must include the f
             'disk'      => 'local',     // The registered name of any filesystem disk in the application
             'dir'       => 'audit',     // The directory on the disk where the audit csv files will be saved
             'filename'  => 'audit.csv', // The filename of the audit file
-            'rotation'  => 'single',    // One of 'single', 'daily', or 'hourly'
+            'rotation'  => 'single',    // One of 'single', 'monthly', 'weekly', 'daily', or 'hourly'
         ],
     ],
     // ...
