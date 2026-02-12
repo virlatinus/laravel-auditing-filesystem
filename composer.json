@@ -23,6 +23,9 @@
     ],
     "type": "package",
     "license": "MIT",
+    "scripts": {
+        "test": "phpunit"
+    },
     "require": {
         "php": ">=8.2",
         "owen-it/laravel-auditing": "^14",
